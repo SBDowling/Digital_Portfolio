@@ -7,7 +7,12 @@ import {
   SiJira,
   SiBitbucket,
   SiCloudflare,
+  SiMeta,
+  SiEspressif,
+  SiJunit5,
+  SiEclipseide,
 } from "react-icons/si";
+import { TbBrandCSharp } from "react-icons/tb";
 import { AiFillGithub } from "react-icons/ai";
 import Cpp from "../../Assets/TechIcons/C++.svg";
 import Java from "../../Assets/TechIcons/Java.svg";
@@ -33,6 +38,15 @@ export const ICONS = {
   bitbucket: { Comp: SiBitbucket },
   cloudflare: { Comp: SiCloudflare },
   github: { Comp: AiFillGithub },
+  meta: { Comp: SiMeta },
+  espressif: { Comp: SiEspressif },
+  junit5: { Comp: SiJunit5 },
+  csharp: { Comp: TbBrandCSharp },
+  eclipse: { Comp: SiEclipseide },
+  gimp: { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gimp/gimp-original.svg" },
+  html: { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
+  css: { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" },
+  javascript: { img: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
 };
 
 export function IconGrid({ items }) {

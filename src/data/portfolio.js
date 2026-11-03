@@ -48,16 +48,19 @@ export const about = {
 export const skills = [
   { name: "Java", icon: "java" },
   { name: "Python", icon: "python" },
-  { name: "C#", icon: "" },
   { name: "C++", icon: "cpp" },
-  { name: "HTML / CSS / JS", icon: "javascript" },
   { name: "Unity", icon: "unity" },
   { name: "Blender", icon: "blender" },
-  { name: "OpenXR / Meta Quest", icon: "" },
-  { name: "ESP32 / PlatformIO", icon: "" },
   { name: "Flask", icon: "flask" },
   { name: "Git", icon: "git" },
-  { name: "JUnit", icon: "" },
+  { name: "JUnit", icon: "junit5" },
+  { name: "C#", icon: "csharp" },
+  { name: "OpenXR / Meta Quest", icon: "meta" },
+  { name: "ESP32 / Esp32 CAM / IoT", icon: "espressif" },
+  { name: "HTML", icon: "html" },
+  { name: "CSS", icon: "css" },
+  { name: "JavaScript", icon: "javascript" },
+  { name: "Gimp", icon: "gimp" },
 ];
 
 export const tools = [
@@ -65,7 +68,7 @@ export const tools = [
   { name: "GitHub", icon: "github" },
   { name: "Jira", icon: "jira" },
   { name: "Bitbucket", icon: "bitbucket" },
-  { name: "Eclipse", icon: "" },
+  { name: "Eclipse", icon: "eclipse" },
   { name: "Cloudflare", icon: "cloudflare" },
 ];
 
