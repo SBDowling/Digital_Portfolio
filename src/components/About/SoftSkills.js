@@ -4,10 +4,10 @@ import { AiFillStar } from "react-icons/ai";
 import { softSkills, careerGoal } from "../../data/portfolio";
 
 // A small purple star that twinkles. "delay" staggers them so they don't all blink together.
-function Star({ delay = 0, size = "0.9em" }) {
+function Star({ delay = 0, size = "0.9em", className = "" }) {
   return (
     <AiFillStar
-      className="twinkle-star"
+      className={`twinkle-star ${className}`}
       style={{ animationDelay: `${delay}s`, fontSize: size }}
     />
   );
@@ -30,10 +30,10 @@ function SoftSkills() {
         ))}
       </Row>
 
-      <h1 className="project-heading">
-        <Star delay={0.4} size="0.6em" /> What I'm{" "}
+        <h1 className="project-heading">
+        <Star delay={0.4} size="0.6em" className="star-gold" /> What I'm{" "}
         <strong className="purple">Looking For</strong>{" "}
-        <Star delay={1.2} size="0.6em" />
+        <Star delay={1.2} size="0.6em" className="star-gold" />
       </h1>
       <Row style={{ justifyContent: "center", paddingBottom: "60px" }}>
         <Col md={10}>

@@ -868,3 +868,15 @@ button:focus {
     animation: none;
   }
 }
+
+/* Soft Skills boxes: cyan stars */
+.tech-icons .twinkle-star {
+  color: #5ce1e6;
+  filter: drop-shadow(0 0 4px rgba(92, 225, 230, 0.8));
+}
+
+/* "What I'm Looking For" heading: gold stars */
+.twinkle-star.star-gold {
+  color: #ffd166;
+  filter: drop-shadow(0 0 4px rgba(255, 209, 102, 0.8));
+}
