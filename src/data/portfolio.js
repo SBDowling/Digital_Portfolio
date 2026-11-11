@@ -35,7 +35,7 @@ export const introParagraphs = [
 // About page
 export const about = {
   intro:
-    "I'm Samuel Bradley Dowling from Portlaoise, Ireland. I'm a Software Design with VR and Gaming graduate (BSc, Level 7, Distinction) from TUS, now completing a BSc (Honours) on the same programme. I have hands-on experience in programming, web development, Unity game development, embedded systems and networking, including IoT firmware and ESP32 hardware developed on industry placement.",
+    "I'm Samuel Bradley Dowling, from Portlaoise, Ireland. I'm a Software Design with VR and Gaming graduate (BSc, Level 7, Distinction) from TUS, now completing a BSc (Honours) on the same programme. I have hands-on experience in programming, web development, Unity game development, embedded systems and networking, including IoT firmware and ESP32 hardware developed on industry placement.",
   interestsHeading: "Outside of coding, I enjoy:",
   // TODO: change these to your own interests
   interests: ["Playing games 🎮", "Building and repairing PC hardware, from GPUs to cooling  🔧", "Exploring VR, MR and new tech 🥽"],
@@ -203,3 +203,17 @@ export const projects = [
     image: "",
   },
 ];
+
+export const softSkills = [
+  "Teamwork",
+  "Communication",
+  "Problem-solving",
+  "Leadership",
+  "Customer service",
+  "Public speaking",
+  "Adaptability",
+  "Reliability",
+];
+
+export const careerGoal =
+  "I'm looking for a graduate software developer role where I can build interactive, real-world systems, ideally in XR, games or IoT. I want to join a team where I can keep learning, contribute from day one, and bring both my technical skills and the communication skills I've built from five years of working with the public.";

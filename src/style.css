@@ -840,3 +840,31 @@ button:focus {
   color: inherit;
   text-decoration: underline;
 }
+
+
+/* --------- Twinkling purple stars (Soft Skills section) --------- */
+.twinkle-star {
+  color: #c770f0;
+  margin-bottom: 4px;
+  filter: drop-shadow(0 0 4px rgba(199, 112, 240, 0.8));
+  animation: twinkle 2.4s ease-in-out infinite;
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(0.7) rotate(20deg);
+  }
+}
+
+/* Respect people who turn off animations in their system settings */
+@media (prefers-reduced-motion: reduce) {
+  .twinkle-star {
+    animation: none;
+  }
+}
