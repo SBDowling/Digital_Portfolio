@@ -53,9 +53,6 @@ function Home() {
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
             <h1>Find Me On</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -89,6 +86,9 @@ function Home() {
                 </a>
               </li>
             </ul>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
           </Col>
         </Row>
       </Container>
