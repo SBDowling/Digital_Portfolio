@@ -20,7 +20,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>"{about.quote}"</p>
-          <footer className="blockquote-footer">{profile.firstName}</footer>
+          <footer className="blockquote-footer">{about.quoteAuthor}</footer>
         </blockquote>
       </Card.Body>
     </Card>

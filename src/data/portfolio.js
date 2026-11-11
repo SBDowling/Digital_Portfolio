@@ -35,11 +35,12 @@ export const introParagraphs = [
 // About page
 export const about = {
   intro:
-    "I'm Samuel Bradley Dowling, from Portlaoise, Ireland. I'm a Software Design with VR and Gaming graduate (BSc, Level 7, Distinction) from TUS, now completing a BSc (Honours) on the same programme. I have hands-on experience in programming, web development, Unity game development, embedded systems and networking, including IoT firmware and ESP32 hardware developed on industry placement.",
-  interestsHeading: "Outside of coding, I enjoy:",
+    "I'm Samuel Bradley Dowling, originally from Dublin and now based in Laois, Ireland. I'm a Software Design with VR and Gaming graduate (BSc, Level 7, Distinction) from TUS, now completing a BSc (Honours) on the same programme. I have hands-on experience in programming, web development, Unity game development, embedded systems and networking, including IoT firmware and ESP32 hardware developed on industry placement.",
+  interestsHeading: "Outside of programming, I enjoy:",
   // TODO: change these to your own interests
   interests: ["Playing games 🎮", "Building and repairing PC hardware, from GPUs to cooling  🔧", "Exploring VR, MR and new tech 🥽"],
-  quote: "Passionate about software engineering and immersive technologies.",
+  quote: "I have not failed. I've just found 10,000 ways that won't work.",
+  quoteAuthor: "Thomas Edison"
 };
 
 // Skill badges on the About page.
