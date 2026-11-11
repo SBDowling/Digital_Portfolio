@@ -26,9 +26,9 @@ export const typewriterLines = [
 // "Let me introduce myself" section on the home page.
 // Each string is one paragraph. Wrap words in ** ** to highlight them in purple.
 export const introParagraphs = [
-  "I'm a software developer who loves building interactive experiences, from games and mixed reality to embedded IoT systems.",
+  "I'm a software developer who loves building interactive experiences, from Unity games and mixed reality to embedded IoT systems.",
   "I graduated from TUS with a **Distinction** in Software Design with VR and Gaming, and I'm now completing the **Level 8 Honours** year on the same programme.",
-  "I'm most comfortable in **Java, Python, C# and C++**, and I build with **Unity, Blender and PlatformIO**.",
+  "I'm most comfortable in **Java, Python, C# and C++**, and I build with **Unity, Blender, VS Code and PlatformIO**.",
   "Right now I'm building **AegisMR**, a mixed-reality cybersecurity education platform for **Meta Quest 3S**, as my final year project.",
 ];
 
