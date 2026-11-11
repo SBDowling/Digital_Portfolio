@@ -12,7 +12,7 @@ export const profile = {
   github: "https://github.com/SBDowling",
   githubUsername: "SBDowling", // used for the "Days I Code" calendar
   // TODO: paste your full LinkedIn profile link here
-  linkedin: "https://www.linkedin.com/",
+  linkedin: "https://www.linkedin.com/in/samuel-bradley-dowling-109a31310/",
 };
 
 // The lines that type themselves out on the home page
